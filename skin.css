@@ -22,3 +22,9 @@
 .sk-bot { border: 1px solid var(--line, #ddd); }
 .sk-cite { cursor: pointer; color: var(--accent); }
 .sk-src { cursor: pointer; padding: .2rem 0; font-size: .9rem; }
+
+.sk-vote { border-radius: 999px; padding: 0 .5rem; font-size: .8rem; background: var(--accent-soft, #eee); }
+.sk-vote.sk-za { background: #dcefdc; color: #1f5a28; } .sk-vote.sk-protiv { background: #f6dcdc; color: #8c1f1f; }
+.sk-vote.sk-uzdrzan { background: #f3ecd0; color: #6d5a14; } .sk-vote.sk-nije { background: #e6e6e6; color: #555; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme=light]) .sk-vote.sk-za { background: #1f3a24; color: #a8dcb0; } :root:not([data-theme=light]) .sk-vote.sk-protiv { background: #4a2323; color: #f0b0b0; } :root:not([data-theme=light]) .sk-vote.sk-uzdrzan { background: #453d1c; color: #e6d68a; } :root:not([data-theme=light]) .sk-vote.sk-nije { background: #333; color: #bbb; } }
+.sk-names { line-height: 1.9; }

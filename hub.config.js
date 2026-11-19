@@ -5,7 +5,7 @@ window.HUB_CONFIG = {
   home: '/pretraga', theme: 'auto',
   brand: { name: 'Arhiva Skupštine', sub: 'pretraga · graf · pitanja' },
   tokens: { accent: '#7a1f2b', accentSoft: '#f4e6e8' }, tokensDark: { accent: '#e6a3ad', accentSoft: '#3a2226' },
-  skin: 'skin.css?v=086a844959',
+  skin: 'skin.css?v=b166beba5a',
   storage: { prefix: 'skupstina-hub' },
   modules: ['tables'],
   data: ['data/core.js'],
