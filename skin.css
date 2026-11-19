@@ -1,0 +1,24 @@
+/* skupstina skin: search cards, document text, graph, chat. Colours come from the hub tokens. */
+.sk-form { margin: 0 0 1.2rem; }
+.sk-form .sk-q, .sk-form textarea { width: 100%; box-sizing: border-box; font: inherit; padding: .6rem .7rem; border-radius: 8px; }
+.sk-form textarea { border: 1px solid var(--line, #ccc); background: var(--panel, transparent); color: inherit; resize: vertical; }
+.sk-filters { display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center; margin-top: .6rem; font-size: .9rem; }
+.sk-filters select, .sk-filters input[type=date] { font: inherit; padding: .2rem .3rem; }
+.sk-card { padding: .7rem .8rem; border: 1px solid var(--line, #ddd); border-radius: 8px; margin: .5rem 0; cursor: pointer; }
+.sk-card:hover, .sk-card:focus { border-color: var(--accent); outline: none; }
+.sk-title { font-weight: 600; }
+.sk-meta, .sk-muted { color: var(--muted, #777); font-size: .85rem; }
+.sk-snip { margin-top: .35rem; font-size: .9rem; }
+.sk-chip { background: var(--accent-soft, #eee); border-radius: 999px; padding: 0 .45rem; }
+.sk-err { color: #b3261e; }
+.sk-text { white-space: pre-wrap; word-break: break-word; font: .85rem/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; max-height: 70vh; overflow: auto; }
+.sk-graph { width: 100%; height: auto; }
+.sk-graph path { stroke: var(--line, #bbb); stroke-width: 1; fill: none; }
+.sk-graph circle { fill: var(--accent); }
+.sk-graph text { font-size: 11px; fill: currentColor; }
+.sk-gn { cursor: pointer; } .sk-gc { cursor: default; } .sk-gc text { font-weight: 700; }
+.sk-msg { padding: .6rem .8rem; border-radius: 8px; margin: .6rem 0; }
+.sk-you { background: var(--accent-soft, #f3f3f3); }
+.sk-bot { border: 1px solid var(--line, #ddd); }
+.sk-cite { cursor: pointer; color: var(--accent); }
+.sk-src { cursor: pointer; padding: .2rem 0; font-size: .9rem; }
